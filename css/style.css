@@ -1,0 +1,210 @@
+/* Setting box-sizing for all elements to border-box */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+
+
+/* changing the element settings for body, h1, and h3 */
+body {
+  background-color: #ffffff;
+  font-family: sans-serif;
+  font-size: 10px;
+  width: 375px;
+  margin: auto;
+}
+
+
+
+
+/* Settings for all the text / fonts */
+
+h1 {
+  font-size: 2em;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: left;
+}
+
+.directions h2 {
+  font-size: 1.3em;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: left;
+}
+
+.destinations h2 {
+  font-size: 1.3em;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: left;
+}
+
+.destinations h4 {
+  font-size: 1.3em;
+  font-family: sans-serif;
+  font-weight: normal;
+  text-align: left;
+}
+
+.destinations h5 {
+  font-size: 1.5em;
+  font-family: sans-serif;
+  font-weight: normal;
+  text-align: center;
+  color: #ffffff;
+  background-color: #FF9500;
+  width: 40%;
+}
+
+.frequencies h2 {
+  font-size: 1.3em;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+}
+
+
+.frequencies h4 {
+  font-size: 2em;
+  font-family: sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  color: #000000;
+  width: 100%;
+}
+
+.frequencies h5 {
+  font-size: 1.2em;
+  font-family: sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  color: #666666;
+  width: 100%;
+}
+/* Each of the below sections is divided into *four main* containrs */
+
+
+/* first container section */
+.containerone {
+  width: 100%;
+}
+
+.statusbar {
+  background-image: url("../images/base.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-bottom: 6%;
+}
+
+
+
+
+/* second container section */
+
+.containertwo {
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  display: inline-block;
+  text-align: center;
+}
+
+.mainarrow {
+  background-image: url("../images/main.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 20%;
+  margin-top: 2%;
+  padding-bottom: 5.5%;
+  display: inline-block;
+}
+
+.station {
+  width: 60%;
+  display: inline-block;
+  line-height: 20px;
+}
+
+.fav {
+  background-image: url("../images/fav.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 15%;
+  padding-bottom: 6.5%;
+  display: inline-block;
+}
+
+
+
+
+
+/* third container section */
+.containerthree {
+  width: 100%;
+}
+
+.map {
+  background-image: url("../images/map2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 80%;
+}
+
+
+
+
+/* fourth container section */
+
+.containerfour {
+  display: inline-block;
+  width: 100%;
+}
+
+.listings {
+  padding-top: 3%;
+  padding-bottom: 2%;
+  text-align: left;
+}
+
+.directions {
+  padding-bottom: 1%;
+  padding-left: 3%;
+  display: block;
+}
+
+.destinations {
+  padding:  2% 3%;
+  display: inline-block;
+  width: 45%;
+  line-height: 170%;
+}
+
+.frequencies {
+  padding:  2% 3%;
+  display: inline-block;
+  width: 30%;
+  line-height: 170%;
+}
+
+
+/* arrow element */
+
+.arrow {
+  display: inline-block;
+  padding-left: 17%;
+  color: #D1D1D6;
+  width: 3%;
+}
+
+/*divider elements */
+.divider2 {
+  display: block;
+  padding: 0.1% 0;
+  background-color: #ccc;
+  width: 100%;
+}
