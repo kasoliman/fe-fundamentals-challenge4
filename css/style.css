@@ -93,7 +93,7 @@ h1 {
 }
 
 .statusbar {
-  background-image: url("../images/Base.PNG");
+  background-image: url("../images/Base.png");
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
@@ -130,7 +130,7 @@ h1 {
 }
 
 .fav {
-  background-image: url("../images/Fav.PNG");
+  background-image: url("../images/Fav.png");
   background-size: contain;
   background-repeat: no-repeat;
   width: 15%;
