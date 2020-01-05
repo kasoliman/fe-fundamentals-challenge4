@@ -93,7 +93,7 @@ h1 {
 }
 
 .statusbar {
-  background-image: url("../images/Base.png");
+  background-image: url("../Images/Base.png");
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
@@ -114,7 +114,7 @@ h1 {
 }
 
 .mainarrow {
-  background-image: url("../Main.png");
+  background-image: url("../Images/Main.png");
   background-size: contain;
   background-repeat: no-repeat;
   width: 20%;
@@ -130,7 +130,7 @@ h1 {
 }
 
 .fav {
-  background-image: url("../images/Fav.png");
+  background-image: url("../Images/Fav.png");
   background-size: contain;
   background-repeat: no-repeat;
   width: 15%;
@@ -148,7 +148,7 @@ h1 {
 }
 
 .map {
-  background-image: url("images/Map2.jpg");
+  background-image: url("../Images/Map2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
