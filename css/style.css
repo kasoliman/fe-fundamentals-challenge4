@@ -60,6 +60,7 @@ h1 {
   color: #ffffff;
   background-color: #FF9500;
   width: 40%;
+  border-radius: 10px;
 }
 
 .frequencies h2 {
